@@ -1,5 +1,5 @@
 var
-  age, year, grade : integer;
-  circumference : real;
-  LetterGrade : char;
-  DidYouFail : Boolean;
+	age, year, grade : integer;
+	circumference : real;
+	LetterGrade : char;
+	DidYouFail : boolean;
