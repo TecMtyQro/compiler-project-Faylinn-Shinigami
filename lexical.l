@@ -27,7 +27,7 @@ if|then|begin|end|procedure|function|while|program|repeat|do|print|for|set|file|
 
 {ID}        printf( "Un identificador: %s\n", yytext );
 
-"'"+{ID}+"'"|"'"+{DIGITO}+"'"   printf( "Cadena o caracter: %s\n", yytext );
+"'"[^}\n]*"'"   printf( "Cadena o caracter: %s\n", yytext );
 
 "+"|"-"|"*"|"/"|">="|"<="|"<>"|":="|".."|":"|">"|"<"|"="   printf( "Un operador: %s\n", yytext );
 
