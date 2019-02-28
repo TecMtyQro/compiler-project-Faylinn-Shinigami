@@ -6,4 +6,4 @@ flex lexical.l
 <br></br>
 gcc -o lexical lex.yy.c -lfl
 <br></br>
-./lexical < text.txt
+./lexical < Right/UC1.txt
