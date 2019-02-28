@@ -3,7 +3,7 @@ var
 begin
 	a := 10;
 	repeat
-		writeln('value of a: ', a);
+		writeln('value', a);
 		a := a + 1
 	until a = 20;
 end.
